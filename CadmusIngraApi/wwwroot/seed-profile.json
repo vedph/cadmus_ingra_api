@@ -7,7 +7,7 @@
       "colorKey": "AA6C39",
       "partDefinitions": [
         {
-          "typeId": "it.vedph.ingra-prison-info",
+          "typeId": "it.vedph.ingra.prison-info",
           "name": "prison",
           "description": "Prison.",
           "isRequired": true,
@@ -408,7 +408,7 @@
       ]
     },
     {
-      "id": "languages@en",
+      "id": "graffiti-languages@en",
       "entries": [
         {
           "id": "eng",
