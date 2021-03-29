@@ -423,12 +423,8 @@
           "value": "German"
         },
         {
-          "id": "grc",
-          "value": "Ancient Greek"
-        },
-        {
           "id": "gre",
-          "value": "Modern Greek"
+          "value": "Greek"
         },
         {
           "id": "ita",
@@ -445,6 +441,19 @@
       ]
     },
     {
+      "id": "graffiti-verses@en",
+      "entries": [
+        {
+          "id": "7s",
+          "value": "settenario"
+        },
+        {
+          "id": "8s",
+          "value": "ottonario"
+        }
+      ]
+    },
+    {
       "id": "link-reasons@en",
       "entries": [
         {
@@ -454,6 +463,39 @@
         {
           "id": "proximity",
           "value": "proximity"
+        }
+      ]
+    },
+    {
+      "id": "person-name-languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "English"
+        },
+        {
+          "id": "fre",
+          "value": "French"
+        },
+        {
+          "id": "deu",
+          "value": "German"
+        },
+        {
+          "id": "gre",
+          "value": "Greek"
+        },
+        {
+          "id": "ita",
+          "value": "Italian"
+        },
+        {
+          "id": "lat",
+          "value": "Latin"
+        },
+        {
+          "id": "spa",
+          "value": "Spanish"
         }
       ]
     },
