@@ -247,6 +247,43 @@
       ]
     },
     {
+      "id": "bibliography-languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "inglese"
+        },
+        {
+          "id": "fre",
+          "value": "francese"
+        },
+        {
+          "id": "deu",
+          "value": "tedesco"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "gre",
+          "value": "neogreco"
+        },
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "spa",
+          "value": "spagnolo"
+        }
+      ]
+    },
+    {
       "id": "bibliography-author-roles@en",
       "entries": [
         {
