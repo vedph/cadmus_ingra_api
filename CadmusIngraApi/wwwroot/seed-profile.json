@@ -24,7 +24,7 @@
           "sortKey": "B"
         },
         {
-          "typeId": "it.vedph.itinera.doc-references",
+          "typeId": "it.vedph.doc-references",
           "name": "references",
           "description": "Document references.",
           "colorKey": "DDA0DD",
@@ -221,7 +221,7 @@
           "value": "prisoner"
         },
         {
-          "id": "it.vedph.itinera.doc-references",
+          "id": "it.vedph.doc-references",
           "value": "references"
         },
         {
@@ -647,7 +647,7 @@
         "id": "seed.it.vedph.ingra.prisoner-info"
       },
       {
-        "id": "seed.it.vedph.itinera.doc-references"
+        "id": "seed.it.vedph.doc-references"
       },
       {
         "id": "seed.it.vedph.note",
