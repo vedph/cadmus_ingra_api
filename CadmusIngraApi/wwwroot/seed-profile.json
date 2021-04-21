@@ -251,35 +251,35 @@
       "entries": [
         {
           "id": "eng",
-          "value": "inglese"
+          "value": "English"
         },
         {
           "id": "fre",
-          "value": "francese"
+          "value": "French"
         },
         {
           "id": "deu",
-          "value": "tedesco"
+          "value": "German"
         },
         {
           "id": "grc",
-          "value": "greco"
+          "value": "Ancient Greek"
         },
         {
           "id": "gre",
-          "value": "neogreco"
+          "value": "Modern Greek"
         },
         {
           "id": "ita",
-          "value": "italiano"
+          "value": "Italian"
         },
         {
           "id": "lat",
-          "value": "latino"
+          "value": "Latin"
         },
         {
           "id": "spa",
-          "value": "spagnolo"
+          "value": "Spanish"
         }
       ]
     },
@@ -349,72 +349,80 @@
       "id": "categories@en",
       "entries": [
         {
-          "id": "architecture",
-          "value": "architecture"
+          "id": "prayer",
+          "value": "prayer"
         },
         {
-          "id": "geography",
-          "value": "geography"
+          "id": "plea",
+          "value": "plea"
         },
         {
-          "id": "geography.cities",
-          "value": "geography: cities"
+          "id": "torture",
+          "value": "torture"
         },
         {
-          "id": "geography.regions",
-          "value": "geography: regions"
+          "id": "pers-stmt",
+          "value": "personal statement"
         },
         {
-          "id": "ethnography",
-          "value": "ethnography"
+          "id": "pers-info",
+          "value": "personal information"
         },
         {
-          "id": "ethnography.death",
-          "value": "ethnography: death"
+          "id": "food",
+          "value": "food"
         },
         {
-          "id": "ethnography.food",
-          "value": "ethnography: food"
+          "id": "insult",
+          "value": "insult"
         },
         {
-          "id": "ethnography.peoples",
-          "value": "ethnography: peoples"
+          "id": "mockery",
+          "value": "mockery"
         },
         {
-          "id": "ethnography.religion",
-          "value": "ethnography: religion"
+          "id": "fact",
+          "value": "historycal fact"
         },
         {
-          "id": "ethnography.religion.deities",
-          "value": "ethnography: religion deities"
+          "id": "exhortation",
+          "value": "exhortation"
         },
         {
-          "id": "ethnography.religion.rites",
-          "value": "ethnography: religion rites"
+          "id": "biblic-quote",
+          "value": "biblycal quote"
         },
         {
-          "id": "history",
-          "value": "history"
+          "id": "classic-quote",
+          "value": "classical quote"
         },
         {
-          "id": "language",
-          "value": "language"
+          "id": "late-ant-quote",
+          "value": "late-antique quote"
         },
         {
-          "id": "language.phonology",
-          "value": "language: phonology"
+          "id": "modern-quote",
+          "value": "modern quote"
         },
         {
-          "id": "language.morphology",
-          "value": "language: morphology"
+          "id": "legend",
+          "value": "legend"
         },
         {
-          "id": "language.syntax",
-          "value": "language: syntax"
+          "id": "date",
+          "value": "date"
         },
         {
-          "id": "literature",
-          "value": "literature"
+          "id": "detention",
+          "value": "detention"
+        },
+        {
+          "id": "signature",
+          "value": "signature"
+        },
+        {
+          "id": "misc",
+          "value": "miscellaneous"
         }
       ]
     },
@@ -428,6 +436,18 @@
         {
           "id": "red",
           "value": "red"
+        },
+        {
+          "id": "white",
+          "value": "white"
+        },
+        {
+          "id": "green",
+          "value": "green"
+        },
+        {
+          "id": "blue",
+          "value": "blue"
         }
       ]
     },
@@ -439,8 +459,52 @@
           "value": "man"
         },
         {
+          "id": "woman",
+          "value": "woman"
+        },
+        {
           "id": "animal",
           "value": "animal"
+        },
+        {
+          "id": "saint",
+          "value": "saint"
+        },
+        {
+          "id": "plant",
+          "value": "plant"
+        },
+        {
+          "id": "christ",
+          "value": "christ"
+        },
+        {
+          "id": "cross",
+          "value": "cross"
+        },
+        {
+          "id": "biblic",
+          "value": "biblical episode"
+        },
+        {
+          "id": "boat",
+          "value": "boat"
+        },
+        {
+          "id": "weapon",
+          "value": "weapon"
+        },
+        {
+          "id": "flag",
+          "value": "flag"
+        },
+        {
+          "id": "decoration",
+          "value": "decoration"
+        },
+        {
+          "id": "cartouche",
+          "value": "cartouche"
         }
       ]
     },
@@ -460,8 +524,12 @@
           "value": "German"
         },
         {
+          "id": "grc",
+          "value": "Ancient Greek"
+        },
+        {
           "id": "gre",
-          "value": "Greek"
+          "value": "Modern Greek"
         },
         {
           "id": "ita",
@@ -474,6 +542,39 @@
         {
           "id": "spa",
           "value": "Spanish"
+        },
+        {
+          "id": "hbo",
+          "value": "Ancient Hebriew"
+        },
+        {
+          "id": "heb",
+          "value": "Hebriew"
+        },
+        {
+          "id": "scn",
+          "value": "Sicilian"
+        },
+        {
+          "id": "vec",
+          "value": "Venetian"
+        }
+      ]
+    },
+    {
+      "id": "graffiti-rhyme@en",
+      "entries": [
+        {
+          "id": "ottava",
+          "value": "ottava rima"
+        },
+        {
+          "id": "sonnet",
+          "value": "sonnet"
+        },
+        {
+          "id": "hexameter",
+          "value": "hexameter"
         }
       ]
     },
@@ -487,6 +588,10 @@
         {
           "id": "8s",
           "value": "ottonario"
+        },
+        {
+          "id": "11s",
+          "value": "endecasillabo"
         }
       ]
     },
@@ -505,36 +610,7 @@
     },
     {
       "id": "person-name-languages@en",
-      "entries": [
-        {
-          "id": "eng",
-          "value": "English"
-        },
-        {
-          "id": "fre",
-          "value": "French"
-        },
-        {
-          "id": "deu",
-          "value": "German"
-        },
-        {
-          "id": "gre",
-          "value": "Greek"
-        },
-        {
-          "id": "ita",
-          "value": "Italian"
-        },
-        {
-          "id": "lat",
-          "value": "Latin"
-        },
-        {
-          "id": "spa",
-          "value": "Spanish"
-        }
-      ]
+      "targetID": "graffiti-languages"
     },
     {
       "id": "person-name-types@en",
@@ -567,6 +643,14 @@
         {
           "id": "witchcraft",
           "value": "witchcraft"
+        },
+        {
+          "id": "sanctity",
+          "value": "false sanctity"
+        },
+        {
+          "id": "polygamy",
+          "value": "polygamy"
         }
       ]
     },
