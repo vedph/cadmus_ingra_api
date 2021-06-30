@@ -16,7 +16,7 @@
           "sortKey": "A"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -49,7 +49,7 @@
           "sortKey": "A"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -93,7 +93,7 @@
           "sortKey": "C"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -170,7 +170,7 @@
           "sortKey": "B"
         },
         {
-          "typeId": "it.vedph.bibliography",
+          "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
           "colorKey": "20B2AA",
@@ -207,7 +207,7 @@
       "id": "model-types@en",
       "entries": [
         {
-          "id": "it.vedph.bibliography",
+          "id": "it.vedph.ext-bibliography",
           "value": "bibliography"
         },
         {
@@ -731,25 +731,6 @@
       "fragmentRoles": []
     },
     "partSeeders": [
-      {
-        "id": "seed.it.vedph.bibliography",
-        "options": {
-          "authors": [
-            "Doe,Jane",
-            "Doherty,Charles",
-            "Orwell,William",
-            "Sampson,James",
-            "Voss,Francis"
-          ],
-          "journals": [
-            "AJPh",
-            "CJ",
-            "CPh",
-            "CQ",
-            "IF"
-          ]
-        }
-      },
       {
         "id": "seed.it.vedph.categories",
         "options": {
