@@ -302,101 +302,44 @@
       ]
     },
     {
-      "id": "bibliography-languages@en",
-      "entries": [
-        {
-          "id": "eng",
-          "value": "English"
-        },
-        {
-          "id": "fre",
-          "value": "French"
-        },
-        {
-          "id": "deu",
-          "value": "German"
-        },
-        {
-          "id": "grc",
-          "value": "Ancient Greek"
-        },
-        {
-          "id": "gre",
-          "value": "Modern Greek"
-        },
-        {
-          "id": "ita",
-          "value": "Italian"
-        },
-        {
-          "id": "lat",
-          "value": "Latin"
-        },
-        {
-          "id": "spa",
-          "value": "Spanish"
-        }
-      ]
-    },
-    {
-      "id": "bibliography-author-roles@en",
+      "id": "ext-biblio-author-roles@en",
       "entries": [
         {
           "id": "ed",
-          "value": "editor"
+          "value": "curatore"
         },
         {
           "id": "tr",
-          "value": "translator"
+          "value": "traduttore"
+        },
+        {
+          "id": "coll",
+          "value": "collaboratore"
+        },
+        {
+          "id": "dir",
+          "value": "direttore"
         },
         {
           "id": "org",
-          "value": "organization"
+          "value": "organizzazione"
         }
       ]
     },
     {
-      "id": "bibliography-types@en",
+      "id": "ext-biblio-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "ext-biblio-work-tags@en",
       "entries": [
         {
-          "id": "book",
-          "value": "book"
+          "id": "ed",
+          "value": "ed.critica"
         },
         {
-          "id": "article-j",
-          "value": "journal article"
-        },
-        {
-          "id": "article-b",
-          "value": "book article"
-        },
-        {
-          "id": "article-p",
-          "value": "proceedings article"
-        },
-        {
-          "id": "review",
-          "value": "review"
-        },
-        {
-          "id": "ebook",
-          "value": "e-book"
-        },
-        {
-          "id": "site",
-          "value": "web site"
-        },
-        {
-          "id": "magazine",
-          "value": "magazine"
-        },
-        {
-          "id": "newspaper",
-          "value": "newspaper"
-        },
-        {
-          "id": "tweet",
-          "value": "tweet"
+          "id": "-",
+          "value": "altro"
         }
       ]
     },

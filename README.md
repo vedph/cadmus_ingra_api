@@ -3,8 +3,8 @@
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus_ingra_api:1.0.7 -t vedph2020/cadmus_ingra_api:latest
-docker push vedph2020/cadmus_ingra_api:1.0.7
+docker build . -t vedph2020/cadmus_ingra_api:1.0.8 -t vedph2020/cadmus_ingra_api:latest
+docker push vedph2020/cadmus_ingra_api:1.0.8
 ```
 
 (replace with the current version).
