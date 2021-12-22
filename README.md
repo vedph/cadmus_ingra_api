@@ -13,6 +13,8 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+- 2021-12-22: updated packages.
+
 - 2021-10-17: updated to include refactored `DocReferencesPart` from bricks. This is a breaking change for the model of this part, see <https://github.com/vedph/cadmus_ingra> for more.
 
 - 2021-10-17: breaking change for auth database by AspNetCore.Identity.Mongo 8.3.1 (used since Cadmus.Api.Controllers 1.3.0, Cadmus.Api.Services 1.2.0):
