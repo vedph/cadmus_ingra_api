@@ -13,6 +13,10 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+- 2022-07-30: updated packages including updated Cadmus INGRA core.
+
+### 1.1.0
+
 - 2021-12-22: updated packages.
 
 - 2021-10-17: updated to include refactored `DocReferencesPart` from bricks. This is a breaking change for the model of this part, see <https://github.com/vedph/cadmus_ingra> for more.
