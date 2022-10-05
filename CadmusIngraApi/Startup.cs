@@ -31,6 +31,7 @@ using Microsoft.AspNetCore.HttpOverrides;
 using Cadmus.Ingra.Services;
 using Cadmus.Core.Storage;
 using Cadmus.Export.Preview;
+using System.Globalization;
 
 namespace CadmusIngraApi
 {
@@ -201,8 +202,8 @@ namespace CadmusIngraApi
             if (!Configuration.GetSection("Preview").GetSection("IsEnabled")
                 .Get<bool>())
             {
-                return new CadmusPreviewer(repository,
-                    factoryProvider.GetFactory("{}"));
+                return new CadmusPreviewer(factoryProvider.GetFactory("{}"),
+                    repository);
             }
 
             // get profile source
@@ -214,8 +215,8 @@ namespace CadmusIngraApi
             {
                 Console.WriteLine($"Preview profile expected at {path} not found");
                 logger.Error($"Preview profile expected at {path} not found");
-                return new CadmusPreviewer(repository,
-                    factoryProvider.GetFactory("{}"));
+                return new CadmusPreviewer(factoryProvider.GetFactory("{}"),
+                    repository);
             }
 
             // load profile
@@ -228,8 +229,11 @@ namespace CadmusIngraApi
                 profile = reader.ReadToEnd();
             }
             CadmusPreviewFactory factory = factoryProvider.GetFactory(profile);
+            factory.ConnectionString = string.Format(CultureInfo.InvariantCulture,
+                Configuration.GetConnectionString("Default"),
+                Configuration.GetValue<string>("DatabaseNames:Data"));
 
-            return new CadmusPreviewer(repository, factory);
+            return new CadmusPreviewer(factory, repository);
         }
 
         /// <summary>

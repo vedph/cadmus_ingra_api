@@ -13,6 +13,10 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+- 2022-10-05:
+  - preview infrastructure.
+  - updated packages (with fixes for legacy parts dependency).
+
 ### 2.0.2
 
 - 2022-09-29: optional HTTPS.
