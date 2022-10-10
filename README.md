@@ -13,6 +13,7 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+- 2022-10-10: updated packages and injection in `Startup.cs` for new `IRepositoryProvider`.
 - 2022-10-05:
   - preview infrastructure.
   - updated packages (with fixes for legacy parts dependency).

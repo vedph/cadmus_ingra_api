@@ -282,7 +282,12 @@ namespace CadmusIngraApi
             // configuration
             services.AddSingleton(_ => Configuration);
             // repository
-            services.AddSingleton<IRepositoryProvider, IngraRepositoryProvider>();
+            string dataCS = string.Format(
+              Configuration.GetConnectionString("Default"),
+              Configuration.GetValue<string>("DatabaseNames:Data"));
+            services.AddSingleton<IRepositoryProvider>(
+              _ => new IngraRepositoryProvider { ConnectionString = dataCS });
+
             // part seeder factory provider
             services.AddSingleton<IPartSeederFactoryProvider,
                 IngraPartSeederFactoryProvider>();
