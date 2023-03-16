@@ -3,8 +3,8 @@
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus_ingra_api:2.0.3 -t vedph2020/cadmus_ingra_api:latest
-docker push vedph2020/cadmus_ingra_api:2.0.3
+docker build . -t vedph2020/cadmus_ingra_api:3.0.0 -t vedph2020/cadmus_ingra_api:latest
+docker push vedph2020/cadmus_ingra_api:3.0.0
 ```
 
 (replace with the current version).
@@ -13,6 +13,9 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+### 3.0.0
+
+- 2023-03-16: updated packages (new configuration backend).
 - 2022-11-28: updated packages.
 - 2022-11-10: upgraded to NET 7.
 
