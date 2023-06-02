@@ -13,6 +13,7 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+- 2023-06-02: updated packages.
 - 2023-05-16: updated packages.
 
 ### 3.0.0
