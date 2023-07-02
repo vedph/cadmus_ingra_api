@@ -3,8 +3,7 @@
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus_ingra_api:3.0.0 -t vedph2020/cadmus_ingra_api:latest
-docker push vedph2020/cadmus_ingra_api:3.0.0
+docker build . -t vedph2020/cadmus-ingra-api:4.0.0 -t vedph2020/cadmus-ingra-api:latest
 ```
 
 (replace with the current version).
@@ -13,6 +12,9 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+### 4.0.0
+
+- 2023-07-02: migrated to PostgreSQL.
 - 2023-06-02: updated packages.
 - 2023-05-16: updated packages.
 
