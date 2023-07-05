@@ -12,6 +12,8 @@ This is a Cadmus API layer customized for the Ingra project. Most of its code is
 
 ## History
 
+- 2023-07-05: updated packages (changed `identifications` in graffiti model).
+
 ### 4.0.0
 
 - 2023-07-02: migrated to PostgreSQL.
